@@ -107,8 +107,8 @@ export class Packer {
                 return page
             }
             page.items = page.items.sort((prev, current) => {
-                    return prev.x > current.x ? -1 : prev.x < current.x ? 1 : 0
-                })
+                return prev.x > current.x ? -1 : prev.x < current.x ? 1 : 0
+            })
         })
         return {pages: this.pages, items: this.items}
     }
