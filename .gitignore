@@ -32,3 +32,5 @@ coverage
 # wrangler files
 .wrangler
 .dev.vars
+
+!src/pkg/guillotine-packer/dist
